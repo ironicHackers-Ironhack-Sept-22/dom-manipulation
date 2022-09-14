@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DOM intro, selectors and manipulation</title>
+
+    <link rel="stylesheet" href="./css/main.css"></link>
+
+
+  </head>
+
+
+  <body>
+    <h1 id="title1">Primary title</h1>
+    <h2 id="title2">Secondary title</h2>
+
+    <p>Lorem ipsum</p>
+    <p>Lorem ipsum</p>
+
+    <p class="paragraph">Here is some text in the first paragraph.</p>
+    <p class="paragraph">And some other text in the second paragraph.</p>
+    <p class="paragraph">However, there is the third paragraph as well.</p>
+
+    <h5 class="subtitle">Oh, subtitle I am!</h5>
+
+    <div class="myInputs"> 
+         <input id="price" type="number" min="0"  placeholder="Price" />
+         <input type="text" placeholder="Name" />
+    </div>
+    
+    <section class="products">
+      <h2 class="title2" id="products">Products</h2>
+    </section>
+
+
+    <section>
+      <h2 class="title2">Reviews</h2>
+    </section>
+    
+    <div id="pikachu">
+      <p class="paragraph">Here is some text in the first paragraph.</p>
+      <p class="paragraph">And some other text in the second paragraph.</p>
+    </div>
+
+
+    <div class="container">
+      <button id="button-1" class="btn">Click here 1</button>
+    </div>
+
+
+    <div class="container">
+      <button id="button-2" class="btn">Click here 2</button>
+    </div>
+
+
+    <div id="container-3" class="container">
+      
+    </div>
+
+
+    <footer id="footer">
+      <div>
+        <div>
+          <a id="my-link" href="./about.html">About us</a>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- load JS file last when DOM already loaded so you can access and manipulate with the DOM elements -->
+    <script src="./js/main.js"></script>
+
+  </body>
+</html>
